@@ -1,0 +1,83 @@
+.body{
+    padding: 0;
+    overflow-y: hidden;
+    
+}
+.navbar{
+    background-color: rgb(128,187,42);
+}
+.maincard{
+    padding: 0%;
+}
+.products{
+
+    padding: 3%;
+    align-items: center;
+}
+.website-font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size:30px;
+	color:rgb(0, 0, 0);
+    margin: 2%;
+}
+.website-font1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	
+	color:rgb(0, 0, 0);
+    margin-left: 2%;
+}
+.cardz{
+    box-shadow: 5px 5px 8px rgb(163, 163, 163), 10px 10px 8px rgb(225, 225, 225), 15px 15px 8px rgb(217, 217, 217);
+}
+#card1{
+   border-top: 0ch;
+   border-left: 0ch;
+   border-right: 0ch;
+}
+#cardbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+   
+    
+}
+#mainlayout{
+    margin: 3%;
+    margin-right: 10%;
+    
+    background-color: rgb(224, 224, 224);
+    
+}
+.img{
+   
+   width: 50%;
+   height: auto;
+   
+    
+    
+}
+
+.nothing{
+    background-color: black;
+    overflow-x: hidden;
+}
+#mainlayout:hover{
+    border-left: 10px solid rgba(90,125,180,255);
+}
+@media screen and (max-width:450px) {
+    #laponly{
+        
+       display: none;
+    }
+    #mainlayout:hover{
+        border-left: 0px solid;
+        border-top: 5px solid grey;
+    }
+    .nothing{
+        display: none;
+    }
+}
+
